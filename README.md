@@ -26,12 +26,19 @@ Siga os passos abaixo!
 > termux-setup-storage
 (depois disso toque na permissão)
 > pkg install git
+
 > pkg install ffmpeg
+
 > pkg install wget
+
 > pkg install nodejs
+
 > pkg install npm
-> git clone https://github.com/juninbot99/juninobot.git
-> cd juninobot
+
+> git clone https://github.com/juninbot99/botjunin.git
+
+> cd botjunin
+
 > bash install.sh
 ```
 
@@ -40,6 +47,14 @@ Siga os passos abaixo!
 ```bash
 > npm start
 ```
+Depois do qrcode
+
+npm i -g pm2 
+
+pm2 start index.js
+
+pm2 monit
+
 
 ## características
 
