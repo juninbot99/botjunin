@@ -25,6 +25,7 @@ Siga os passos abaixo!
 ```bash
 > termux-setup-storage
 (depois disso toque na permissão)
+
 > pkg install git
 
 > pkg install ffmpeg
@@ -47,7 +48,7 @@ Siga os passos abaixo!
 ```bash
 > npm start
 ```
-Depois do qrcode
+## Depois do qrcode
 
 npm i -g pm2 
 
