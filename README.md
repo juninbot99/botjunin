@@ -43,7 +43,7 @@ Siga os passos abaixo!
 > bash install.sh
 ```
 
-## Uso
+## Primeira vez
 
 ```bash
 > npm start
