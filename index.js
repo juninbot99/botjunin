@@ -808,7 +808,7 @@ case 'timer':
 						teks += `â• âž¥ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions('â•”â•â•âœªã€˜ Mencionando Todos ã€™âœªâ•â•\nâ• âž¥'+teks+'â•šâ•ã€˜ Toin BOT ã€™', members_id, true)
+					mentions('â•”â•â•âœªã€˜ Mencionando Todos ã€™âœªâ•â•\nâ• âž¥'+teks+'â•šâ•ã€˜ Junin BOT ã€™', members_id, true)
 					break
                 case 'tagall2':
 				client.updatePresence(from, Presence.composing) 
@@ -821,7 +821,7 @@ case 'timer':
 						teks += `â• âž¥ ${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					client.sendMessage(from, 'â•”â•â•âœªã€˜ Mencionando Todos ã€™âœªâ•â•\nâ• âž¥'+teks+'â•šâ•ã€˜ Toin BOT ã€™', text, {quoted: mek})
+					client.sendMessage(from, 'â•”â•â•âœªã€˜ Mencionando Todos ã€™âœªâ•â•\nâ• âž¥'+teks+'â•šâ•ã€˜ Junin BOT ã€™', text, {quoted: mek})
 					break
                 case 'tagall3':
 				client.updatePresence(from, Presence.composing) 
@@ -834,7 +834,7 @@ case 'timer':
 						teks += `â• âž¥ https://wa.me/${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					client.sendMessage(from, 'â•”â•â•âœªã€˜ Mencionando Todos ã€™âœªâ•â•\nâ• âž¥'+teks+'â•šâ•ã€˜ Toin BOT ã€™', text, {detectLinks: false, quoted: mek})
+					client.sendMessage(from, 'â•”â•â•âœªã€˜ Mencionando Todos ã€™âœªâ•â•\nâ• âž¥'+teks+'â•šâ•ã€˜ Junin BOT ã€™', text, {detectLinks: false, quoted: mek})
 					break
                         case 'tagall4':
 				client.updatePresence(from, Presence.composing) 
@@ -847,7 +847,7 @@ case 'timer':
 						teks += `â• âž¥ ${mem.jid.split('@')[0]}@c.us\n`
 						members_id.push(mem.jid)
 					}
-					client.sendMessage(from, 'â•”â•â•âœªã€˜ Mencionando Todos ã€™âœªâ•â•\nâ• âž¥'+teks+'â•šâ•ã€˜ Toin BOT ã€™', text, {quoted: mek})
+					client.sendMessage(from, 'â•”â•â•âœªã€˜ Mencionando Todos ã€™âœªâ•â•\nâ• âž¥'+teks+'â•šâ•ã€˜ Junin BOT ã€™', text, {quoted: mek})
 					break
                 case 'tagall5':
 				client.updatePresence(from, Presence.composing) 
@@ -860,7 +860,7 @@ case 'timer':
 						teks += `â• âž¥ ${mem.jid.split('@')[0]}@s.whatsapp.net\n`
 						members_id.push(mem.jid)
 					}
-					reply('â•”â•â•âœªã€˜ Mencionando Todos ã€™âœªâ•â•\nâ• âž¥'+teks+'â•šâ•ã€˜ Toin BOT ã€™')
+					reply('â•”â•â•âœªã€˜ Mencionando Todos ã€™âœªâ•â•\nâ• âž¥'+teks+'â•šâ•ã€˜ Junin BOT ã€™')
 					break
 				case 'send':
 					var pc = body.slice(6)
